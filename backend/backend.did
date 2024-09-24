@@ -1,0 +1,5 @@
+service : {
+  getDoomHistory: () -> (text) query;
+  getVisitorCount: () -> (nat) query;
+  incrementVisitorCount: () -> (nat);
+}
