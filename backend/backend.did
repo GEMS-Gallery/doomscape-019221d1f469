@@ -1,4 +1,9 @@
 service : {
+  getDoomCharacters: () -> (vec record {
+                                  text;
+                                  text;
+                                }) query;
+  getDoomGames: () -> (vec text) query;
   getDoomHistory: () -> (text) query;
   getVisitorCount: () -> (nat) query;
   incrementVisitorCount: () -> (nat);

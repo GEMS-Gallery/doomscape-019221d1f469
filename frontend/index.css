@@ -1,36 +1,76 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', monospace;
     line-height: 1.6;
-    color: #333;
-    max-width: 800px;
+    color: #ff6600;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: #1a1a1a;
+    background-image: url('images/doom_background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 header {
-    background-color: #800000;
-    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ff6600;
     text-align: center;
     padding: 1rem;
+    border: 2px solid #ff6600;
 }
 
-h1, h2 {
-    color: #800000;
+h1, h2, h3 {
+    color: #ff0000;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 20px 0;
+    padding: 20px;
+    border: 2px solid #ff6600;
 }
 
 #gameContainer {
     width: 100%;
     height: 480px;
     margin-top: 20px;
+    border: 2px solid #ff6600;
 }
 
 footer {
     text-align: center;
     margin-top: 2rem;
     padding: 1rem;
-    background-color: #800000;
-    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ff6600;
+    border: 2px solid #ff6600;
+}
+
+#doomGames {
+    list-style-type: none;
+    padding: 0;
+}
+
+#doomGames li {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: rgba(255, 102, 0, 0.2);
+    border-left: 4px solid #ff6600;
+}
+
+.character {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgba(255, 102, 0, 0.1);
+    border: 1px solid #ff6600;
+}
+
+.character img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border: 2px solid #ff0000;
 }
 
 @media (max-width: 600px) {
